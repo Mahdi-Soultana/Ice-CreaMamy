@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* font-family: 'Righteous', cursive; */
+
+body {
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 0 1rem;
+    padding: .6rem 1.2rem;
+    font-size: 1.2rem;
+    z-index: 100;
+}
+
+img {
+    width: 14rem;
+}
+
+.container {
+    overflow: hidden;
+    position: relative;
+    height: 94vh;
+    background-image: linear-gradient(#d64e7e, #F377A2 23% 80%, #d64e7e);
+}
+
+.wave {
+    display: block;
+    position: absolute;
+    top: -8%;
+    left: -6%;
+    z-index: 1;
+}
+
+nav {
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 0;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-shadow: 0px 0px 3px black;
+    font-family: 'Righteous', cursive;
+}
+
+.logo span {
+    margin-left: -1rem;
+}
+
+div {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+.info-ice>img {
+    width: 5rem;
+}
+
+.info-ice>p {
+    width: 20rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: whitesmoke;
+    text-indent: -1rem;
+}
+
+.main-ice {
+    padding-left: 2rem;
+}
+
+.info-ice {
+    padding: 0 2rem;
+}
+
+.info {
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 8rem;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-shadow: 0px 0px 2px black;
+    font-family: 'Righteous', cursive;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 100;
+    color: whitesmoke;
+    text-shadow: 0px 0px 2px black;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    font-weight: 400;
+    color: whitesmoke;
+    text-shadow: 0px 0px 2px black;
+    font-family: 'Amatic SC', cursive;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+}
+
+footer div p {
+    border-top: #000000 SOLID 2px;
+    height: 100%;
+    padding: 5px 6rem;
+}
