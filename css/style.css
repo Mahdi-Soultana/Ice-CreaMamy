@@ -24,9 +24,11 @@ li {
     padding: .6rem 1.2rem;
     font-size: 1.2rem;
     z-index: 100;
+    cursor: pointer;
 }
 
 img {
+    cursor: pointer;
     width: 14rem;
 }
 
@@ -80,7 +82,7 @@ main {
 }
 
 .info-ice>p {
-    width: 20rem;
+    width: 27rem;
     font-size: 1rem;
     font-weight: 400;
     color: whitesmoke;
@@ -133,7 +135,7 @@ footer div {
 }
 
 footer div p {
-    border-top: #000000 SOLID 2px;
+    border-top: #111111 SOLID 3px;
     height: 100%;
     padding: 5px 6rem;
 }
